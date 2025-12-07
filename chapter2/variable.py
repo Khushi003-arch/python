@@ -1,5 +1,5 @@
 
-# now variable means what a name that strore in memory location and also 
+# now variable means  a name that strore in memory location and also 
 # known as one kind of box to store some value .
 # vari means tha value that can be changed 
 
