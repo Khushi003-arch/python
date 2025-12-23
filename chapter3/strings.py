@@ -197,7 +197,9 @@ print("Count() Example", str.count('happy'))
 
 
 
-# PRACTICE QUESTIONS:
+#----------------------------- PRACTICE QUESTIONS:--------------------------------
+
+
 
 # WAP to input user first name and print its length.
 
@@ -211,3 +213,47 @@ print(len(userName))
 
 str="hii $ i am $ symbol $99.99 "
 print(str.count('$'))
+
+
+
+
+# Try ye programs:
+
+# 1️⃣ Check string empty hai ya nahi
+# 2️⃣ Count vowels in a string
+# 3️⃣ Check palindrome string
+# 4️⃣ Password validation program
+# 5️⃣ Check email contains @ and .
+
+
+# Check string empty hai ya nahi
+
+s1=input("Enter A string:")
+if s1=="":
+    print("String is empty:")
+else:
+    print("String is not Empty:")
+
+        
+#  Check email contains @ and .
+
+
+
+email=input("Enter A Email:")
+if '@' in email and '.' in email:
+    print("This Email is Valid:")
+else:
+    print("This Email is not valid:")
+
+
+
+# Password validation program
+
+password=input("Enter A Password:")
+
+if len(password)<8:
+    print("Password too Short:")
+elif not any(ch.isdigit() for ch in password):
+    print("Password must be contain At least one digit:")
+else:
+    print("password is Valid:")
