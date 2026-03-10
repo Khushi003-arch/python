@@ -3,7 +3,7 @@
 what is strings :
 strings are the sequence of the character :
 and also a primitive data type :
-strings are inmutable.
+strings are inmutable(We can not change the values)
 strings are enclosed with single and double and tripple quotes also .''," ",''' '''
 
 '''
