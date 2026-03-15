@@ -185,6 +185,9 @@ print("find() Example",string.find('old'))
 
 
 
+
+
+
 # ==================================================================================
 
 # 7.count()
@@ -257,3 +260,12 @@ elif not any(ch.isdigit() for ch in password):
     print("Password must be contain At least one digit:")
 else:
     print("password is Valid:")
+
+
+
+
+    
+# reverse ()
+
+reverse_string ='khushi'
+print(reverse_string[::-1])
