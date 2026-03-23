@@ -45,6 +45,21 @@ but when we use break and continue kewword in that case else is mendatory to use
 renge functuion return a sequence of numbers , staring from o and increment by 1 and stop before a specified numbers
 
 range( start ,stop ,step )
+
+
+
+
+
+Python में pass statement एक placeholder होता है जो कुछ नहीं करता, 
+लेकिन code को syntactically valid बनाए रखता है। इसका इस्तेमाल तब होता है 
+जब हमें block (जैसे function, loop, class, या if statement) लिखना है लेकिन 
+अभी logic नहीं डालना चाहते।
+
+
+
+
+
+
 '''
 
 # count = 1
@@ -213,18 +228,57 @@ range( start ,stop ,step )
     
 # ====================== range() ======================
 
-seq =range(0,5)
-for i in seq :
-    print(i)
+# seq =range(0,5)
+# for i in seq :
+#     print(i)
 
 
 
-for i in range(10):
-    print(i)
+# for i in range(10):
+#     print(i)
 
-for i in range(5,10):
-    print(i)
+# for i in range(5,10):
+#     print(i)
 
 
-for i in range(5,10,2):
-    print(i)   
+# for i in range(5,10,2):
+#     print(i)   
+
+
+
+
+
+# n=int(input("Enter A number :"))
+
+# for i in range(1,12):
+#     print(n*i)
+
+
+
+
+
+# =============================== pass statment =================================
+'''
+
+Python में pass statement एक placeholder होता है जो कुछ नहीं करता, 
+लेकिन code को syntactically valid बनाए रखता है। इसका इस्तेमाल तब होता है 
+जब हमें block (जैसे function, loop, class, या if statement) लिखना है लेकिन 
+अभी logic नहीं डालना चाहते।
+
+'''
+
+
+for i in range(1,5):
+    # print(i)
+    pass
+print("pass as placeholder")
+
+
+
+
+
+# task :
+
+
+# sum of n numbers :
+
